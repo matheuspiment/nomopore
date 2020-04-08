@@ -8,6 +8,7 @@
     "test:ci": "yarn lerna run test --since"
   },
   "devDependencies": {
+    "husky": "^4.2.3",
     "lerna": "^3.20.0"
   }
 }
