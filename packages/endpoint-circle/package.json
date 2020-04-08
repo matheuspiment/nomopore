@@ -1,5 +1,5 @@
 {
-  "name": "@nomopore/endpoint-circle",
+  "name": "@matheuspiment/nomopore-endpoint-circle",
   "version": "0.0.17",
   "main": "index.js",
   "license": "MIT",
@@ -14,5 +14,5 @@
     "url": "ssh://git@github.com:matheuspiment/nomopore.git",
     "directory": "packages/endpoint-circle"
   },
-  "gitHead": "2da112f2aa1e3c0c545fed5d6407c65a23155f01"
+  "gitHead": "7353db39cc07176b5268bc524b39bfa42ca2415b"
 }
