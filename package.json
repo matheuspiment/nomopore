@@ -7,8 +7,9 @@
   "scripts": {
     "test:ci": "yarn lerna run test --since"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com/matheuspiment/nomopore.git"
   },
   "devDependencies": {
     "husky": "^4.2.3",
