@@ -11,8 +11,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "ssh://git@github.com/matheuspiment/nomopore.git",
+    "url": "ssh://git@github.com:matheuspiment/nomopore.git",
     "directory": "packages/endpoint-circle"
   },
-  "gitHead": "9ab95b5d79b309b9799670912c931f555e16fd2f"
+  "gitHead": "2da112f2aa1e3c0c545fed5d6407c65a23155f01"
 }
