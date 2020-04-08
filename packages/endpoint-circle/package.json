@@ -1,13 +1,13 @@
 {
   "name": "@matheuspiment/nomopore-endpoint-circle",
-  "version": "0.0.18",
+  "version": "0.0.19",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
     "test": "echo 'TEST CIRCLE'"
   },
   "dependencies": {
-    "@matheuspiment/nomopore-common": "^0.0.18"
+    "@matheuspiment/nomopore-common": "^0.0.19"
   },
   "repository": {
     "type": "git",
