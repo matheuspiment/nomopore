@@ -1,4 +1,4 @@
-const database = require("@api/common/components/database");
+const database = require("@matheuspiment/nomopore-common/components/database");
 
 database.test();
 database.test();

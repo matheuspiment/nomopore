@@ -7,7 +7,7 @@
     "test": "echo 'TEST CIRCLE'"
   },
   "dependencies": {
-    "@nomopore/common": "^0.0.17"
+    "@matheuspiment/nomopore-common": "^0.0.18"
   },
   "repository": {
     "type": "git",
