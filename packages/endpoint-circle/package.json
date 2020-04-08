@@ -1,12 +1,12 @@
 {
   "name": "@api/endpoint-circle",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
     "test": "echo 'TEST CIRCLE'"
   },
   "dependencies": {
-    "@api/common": "^0.0.12"
+    "@api/common": "^0.0.13"
   }
 }
