@@ -11,5 +11,10 @@
     "mysql2": "^2.1.0",
     "objection": "^2.1.3"
   },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com/matheuspiment/nomopore.git",
+    "directory": "packages/common"
+  },
   "gitHead": "9ab95b5d79b309b9799670912c931f555e16fd2f"
 }
