@@ -1,8 +1,11 @@
 {
   "name": "@api/common",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "test": "echo 'TEST COMMON'"
+  },
   "dependencies": {
     "knex": "^0.20.13",
     "mysql2": "^2.1.0",
