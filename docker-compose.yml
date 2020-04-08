@@ -1,0 +1,16 @@
+version: "3.3"
+
+services:
+  mysqldb:
+    image: mysql:5.7.22
+    environment:
+      MYSQL_ROOT_PASSWORD: "root"
+      MYSQL_PASSWORD: "root"
+      MYSQL_DATABASE: "nomopore"
+    container_name: "nomopore-database"
+    restart: always
+    ports:
+      - "3306:3306"
+    volumes:
+      - "./mysql/data/:/var/lib/mysql"
+      - "./mysql/conf:/etc/mysql/conf.d"

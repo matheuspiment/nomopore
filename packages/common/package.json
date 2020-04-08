@@ -1,0 +1,11 @@
+{
+  "name": "@api/common",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "knex": "^0.20.13",
+    "mysql2": "^2.1.0",
+    "objection": "^2.1.3"
+  }
+}
