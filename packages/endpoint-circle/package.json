@@ -1,13 +1,13 @@
 {
   "name": "@nomopore/endpoint-circle",
-  "version": "0.0.16",
+  "version": "0.0.17",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
     "test": "echo 'TEST CIRCLE'"
   },
   "dependencies": {
-    "@nomopore/common": "^0.0.16"
+    "@nomopore/common": "^0.0.17"
   },
   "repository": {
     "type": "git",
