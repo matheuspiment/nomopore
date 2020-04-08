@@ -1,5 +1,5 @@
 {
-  "name": "@api/endpoint-circle",
+  "name": "@nomopore/endpoint-circle",
   "version": "0.0.14",
   "main": "index.js",
   "license": "MIT",
@@ -7,6 +7,7 @@
     "test": "echo 'TEST CIRCLE'"
   },
   "dependencies": {
-    "@api/common": "^0.0.14"
-  }
+    "@nomopore/common": "^0.0.14"
+  },
+  "gitHead": "9ab95b5d79b309b9799670912c931f555e16fd2f"
 }

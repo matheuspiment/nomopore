@@ -1,5 +1,5 @@
 {
-  "name": "@api/common",
+  "name": "@nomopore/common",
   "version": "0.0.14",
   "main": "index.js",
   "license": "MIT",
@@ -10,5 +10,6 @@
     "knex": "^0.20.13",
     "mysql2": "^2.1.0",
     "objection": "^2.1.3"
-  }
+  },
+  "gitHead": "9ab95b5d79b309b9799670912c931f555e16fd2f"
 }
