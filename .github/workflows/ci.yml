@@ -25,6 +25,6 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - run: yarn install
       - run: yarn lerna bootstrap
-      - run: cd packages/endpoint-circle && ls
+      - run: cd packages/endpoint-circle && yarn install --production && ls
         env:
           CI: true
