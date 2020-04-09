@@ -1,9 +1,6 @@
 {
   "name": "nomopore",
   "private": true,
-  "workspaces": [
-    "packages/*"
-  ],
   "scripts": {
     "test:ci": "yarn lerna run test --since"
   },
