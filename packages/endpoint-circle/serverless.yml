@@ -4,7 +4,11 @@ provider:
   name: aws
   runtime: nodejs10.x
   layers:
-    - arn:aws:lambda:us-east-1:520205089606:layer:nomopore-common:3
+    - arn:aws:lambda:us-east-1:520205089606:layer:nomopore-common:6
+
+package:
+  exclude:
+    - node_modules/@matheuspiment/**
 
 functions:
   createCircle:
