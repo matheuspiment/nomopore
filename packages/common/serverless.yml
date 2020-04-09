@@ -3,6 +3,7 @@ service: common
 provider:
   name: aws
   runtime: nodejs10.x
+  versionFunctions: false
 
 layers:
   nomopore_common:
