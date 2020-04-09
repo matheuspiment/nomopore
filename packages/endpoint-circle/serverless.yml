@@ -3,6 +3,8 @@ service: endpoint-circle
 provider:
   name: aws
   runtime: nodejs10.x
+  layers:
+    - arn:aws:lambda:us-east-1:520205089606:layer:nomopore-common:3
 
 functions:
   createCircle:

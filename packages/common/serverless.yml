@@ -1,0 +1,13 @@
+service: common
+
+provider:
+  name: aws
+  runtime: nodejs10.x
+
+layers:
+  nomopore_common:
+    path: dependencies
+    name: nomopore-common
+    compatibleRuntimes:
+      - nodejs10.x
+    retain: false
