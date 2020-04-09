@@ -1,7 +1,7 @@
 const databaseManager = require("./databaseManager");
 
 function test() {
-  console.log("TESTEEEE");
+  console.log("TESTE");
 }
 
 module.exports = { databaseManager, test };
