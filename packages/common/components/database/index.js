@@ -1,7 +1,8 @@
+const iEmpty = require("lodash/isEmpty");
+
 const databaseManager = require("./databaseManager");
 
-function test() {
-  console.log("TESTE");
-}
-
-module.exports = { databaseManager, test };
+module.exports = {
+  databaseManager,
+  isConnected: () => (iEmpty(databaseManager.connection) ? false : true),
+};

@@ -4,15 +4,16 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "test": "echo 'TESTING COMMON'"
+    "test": "echo 'TESTING COMMON'",
+    "deploy": "rm -rf dependencies && mkdir -p dependencies/nodejs && yarn install --production --modules-folder ./dependencies/nodejs/node_modules"
   },
   "repository": {
     "type": "git",
     "url": "ssh://git@github.com:matheuspiment/nomopore.git",
     "directory": "packages/common"
   },
-  "devDependencies": {
-    "serverless": "^1.67.3"
+  "dependencies": {
+    "lodash": "^4.17.15"
   },
   "gitHead": "7353db39cc07176b5268bc524b39bfa42ca2415b"
 }
