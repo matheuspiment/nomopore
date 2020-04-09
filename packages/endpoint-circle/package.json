@@ -15,5 +15,8 @@
     "url": "ssh://git@github.com:matheuspiment/nomopore.git",
     "directory": "packages/endpoint-circle"
   },
-  "gitHead": "7353db39cc07176b5268bc524b39bfa42ca2415b"
+  "gitHead": "7353db39cc07176b5268bc524b39bfa42ca2415b",
+  "devDependencies": {
+    "serverless": "^1.67.3"
+  }
 }

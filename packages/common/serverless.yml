@@ -5,6 +5,10 @@ provider:
   runtime: nodejs10.x
   versionFunctions: false
 
+package:
+  include:
+    - dependencies/**
+
 layers:
   nomopore_common:
     path: dependencies
