@@ -23,8 +23,7 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
-      - run: yarn install
-      - run: yarn lerna bootstrap
-      - run: cd packages/endpoint-circle && yarn install --production && ls
+      - run: npm install
+      - run: cd packages/endpoint-circle && npm install --production && ls
         env:
           CI: true
