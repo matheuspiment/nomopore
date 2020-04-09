@@ -5,6 +5,7 @@
   "private": true,
   "scripts": {
     "test": "echo 'TESTING COMMON'",
+    "deploy": "yarn build-layer && yarn serverless deploy -v",
     "prepack-as-dependency": "mkdir -p @matheuspiment/nomopore-common",
     "pack-as-dependency": "yarn pack --filename @matheuspiment/nomopore-common/package.tgz && tar xf @matheuspiment/nomopore-common/package.tgz -C  @matheuspiment/nomopore-common/ && ncp @matheuspiment/nomopore-common/package/. @matheuspiment/nomopore-common",
     "postpack-as-dependency": "rm -rf @matheuspiment/nomopore-common/package && rm @matheuspiment/nomopore-common/package.tgz",

@@ -1,4 +1,4 @@
-service: common
+service: dependencies-nomopore-common
 
 provider:
   name: aws

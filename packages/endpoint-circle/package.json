@@ -4,7 +4,8 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "test": "echo 'TESTING CIRCLE'"
+    "test": "echo 'TESTING CIRCLE'",
+    "deploy": "yarn serverless deploy -v"
   },
   "dependencies": {
     "@matheuspiment/nomopore-common": "^0.0.27",
