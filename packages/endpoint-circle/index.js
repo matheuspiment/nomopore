@@ -1,3 +1,11 @@
-const database = require("@matheuspiment/nomopore-common/components/database");
+const {
+  databaseManager,
+} = require("@matheuspiment/nomopore-common/components/database");
 
-database.test();
+(async () => {
+  console.log("connection", databaseManager.connection);
+
+  await databaseManager.connect();
+
+  console.log("connection", databaseManager.connection);
+})();

@@ -1,26 +1,11 @@
-const knex = require("knex");
-const { Model } = require("objection");
-
-const knexConfig = require("../../knexfile");
-
-async function databaseManager() {
-  let knexInstance = null;
-
-  async function initializeKnex() {
-    return knex(knexConfig.development);
-  }
-
-  async function connect() {
-    if (!knexInstance) {
-      knexInstance = await initializeKnex();
-    }
-
-    Model.bind(knexInstance);
-  }
-
-  return {
-    connect,
-  };
+function DatabaseManager() {
+  this.connection = null;
 }
 
-module.exports = databaseManager();
+DatabaseManager.prototype.connect = async function connect() {
+  if (!this.connection) {
+    this.connection = await Promise.resolve("connection");
+  }
+};
+
+module.exports = new DatabaseManager();
