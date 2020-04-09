@@ -12,7 +12,6 @@
     "url": "ssh://git@github.com/matheuspiment/nomopore.git"
   },
   "devDependencies": {
-    "husky": "^4.2.3",
     "lerna": "^3.20.0"
   }
 }
