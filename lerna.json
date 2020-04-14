@@ -1,0 +1,11 @@
+{
+  "packages": ["packages/*"],
+  "version": "0.0.27",
+  "npmClient": "yarn",
+  "useWorkspaces": false,
+  "command": {
+    "publish": {
+      "registry": "https://npm.pkg.github.com"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "nomopore",
+  "private": true,
+  "scripts": {
+    "test:ci": "lerna run test --since"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com/matheuspiment/nomopore.git"
+  },
+  "devDependencies": {
+    "lerna": "^3.20.0",
+    "serverless": "^1.67.3"
+  }
+}

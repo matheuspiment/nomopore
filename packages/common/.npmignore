@@ -1,0 +1,4 @@
+dependencies/
+.serverless/
+@matheuspiment/
+serverless.yml

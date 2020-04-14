@@ -1,0 +1,19 @@
+{
+  "name": "@matheuspiment/nomopore-endpoint-circle",
+  "version": "0.0.27",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "echo 'TESTING CIRCLE'",
+    "deploy": "serverless deploy -v"
+  },
+  "dependencies": {
+    "@matheuspiment/nomopore-common": "^0.0.27",
+    "aws-sdk": "^2.656.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com:matheuspiment/nomopore.git",
+    "directory": "packages/endpoint-circle"
+  }
+}

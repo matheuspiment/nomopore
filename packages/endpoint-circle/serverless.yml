@@ -1,0 +1,21 @@
+service: endpoint-circle
+
+provider:
+  name: aws
+  runtime: nodejs10.x
+  environment: ${file(../../.env.yml)}
+  layers:
+    - ${self:provider.environment.COMMON}
+
+package:
+  exclude:
+    - node_modules/@matheuspiment/**
+
+functions:
+  createCircle:
+    handler: handler.createCircle
+    events:
+      - http:
+          path: circle
+          method: post
+          integration: lambda-proxy
