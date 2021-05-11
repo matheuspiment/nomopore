@@ -19,7 +19,7 @@
     "directory": "packages/common"
   },
   "dependencies": {
-    "lodash": "^4.17.15"
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
     "extract-zip": "^2.0.0",
